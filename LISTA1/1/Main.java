@@ -15,9 +15,8 @@ public class Main {
         System.out.println(livro1.titulo + " " + livro2.titulo + " " + livro3.titulo);
         System.out.println(livro1.autor + " " + livro2.autor + " " + livro3.autor);
         System.out.println(livro1.ano + " " + livro2.ano + " " + livro3.ano);
+        
 
         s.close();
-
-        
     }
 } 
