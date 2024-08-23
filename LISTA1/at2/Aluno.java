@@ -1,4 +1,4 @@
-package at2;
+package LISTA1.at2;
 public class Aluno{
     String nome;
     int idade;
