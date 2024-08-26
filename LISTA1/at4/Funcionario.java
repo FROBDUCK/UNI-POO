@@ -10,5 +10,4 @@ public class Funcionario {
         this.departamento=departamento;
         this.salario=salario;
     }
-    
 }

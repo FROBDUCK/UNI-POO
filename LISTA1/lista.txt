@@ -1,0 +1,25 @@
+Lista 01 – Classes e objetos
+
+Programação Orientada a Objetos
+
+Prof. Iago Rodrigues
+
+1. Gestão de Biblioteca: Imagine que você precisa organizar as informações dos livros em uma biblioteca. Crie uma classe Livro com atributos para armazenar o título, autor e ano de publicação. Em seguida, simule a adição de três livros ao sistema, mostrando suas informações.
+
+2. Sistema de Controle de Alunos: Uma escola precisa de um sistema para gerenciar informações sobre seus alunos. Desenvolva uma classe Aluno com atributos para o nome, idade e série. Crie objetos para representar três alunos diferentes e mostre seus dados.
+
+3. Catálogo de Produtos: Uma loja virtual quer manter um catálogo de seus produtos. Implemente uma classe Produto com atributos para nome, preço e categoria. Adicione três produtos ao catálogo e exiba as informações de cada um.
+
+4. Gerenciamento de Funcionários: Uma empresa deseja manter um registro de seus funcionários. Crie uma classe Funcionario com atributos para nome, departamento e salário. Registre três funcionários e mostre os detalhes de cada um.
+
+5. Sistema de Reservas de Hotel: Um hotel quer um sistema simples para gerenciar reservas. Elabore uma classe Reserva que contenha o nome do hóspede, o tipo de quarto (simples, duplo, suíte) e o número de noites. Crie três reservas diferentes e exiba as informações.
+
+6. Registro de Veículos: Um departamento de trânsito precisa de um sistema para registrar veículos. Desenvolva uma classe Veiculo com atributos para a placa, marca e ano. Registre três veículos diferentes e apresente seus dados.
+
+7. Sistema de Perfil de Usuário para Rede Social: Uma rede social quer permitir que seus usuários criem perfis. Implemente uma classe PerfilUsuario com atributos para nome de usuário, bio e número de seguidores. Crie perfis para três usuários e mostre os detalhes.
+
+8. Controle de Eventos: Uma organização que promove eventos quer um sistema para gerenciar informações sobre eles. Crie uma classe Evento com atributos para nome do evento, data e local. Organize três eventos diferentes e exiba as informações.
+
+9. Gerenciamento de Pacientes em uma Clínica: Uma clínica médica precisa de um sistema para manter registros de pacientes. Desenvolva uma classe Paciente com atributos para nome, idade e diagnóstico. Registre três pacientes e mostre suas informações.
+
+10. Sistema de Pedidos de Restaurante: Um restaurante deseja um sistema para gerenciar pedidos. Implemente uma classe Pedido que contenha o número do pedido, a descrição dos itens pedidos e o valor total. Crie três pedidos diferentes e apresente os detalhes.
