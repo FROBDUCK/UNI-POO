@@ -2,6 +2,7 @@ package LISTA1.at4;
 import java.util.Scanner;
 
 public class Main {
+    public static void main(String[] args){
     Scanner s = new Scanner(System.in);
     
     Funcionario f1 = new Funcionario(s.nextLine(), s.nextLine(), s.nextDouble());
@@ -13,4 +14,5 @@ public class Main {
     System.out.println("nome: "+ f3.nome + " departamento: " + f3.departamento + " salario: " + f3.salario);
 
     s.close();
+}
 }

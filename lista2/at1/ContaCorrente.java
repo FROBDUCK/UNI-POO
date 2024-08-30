@@ -18,14 +18,25 @@ public class ContaCorrente{
     }
 
     void sacar(double valor){
-        if(valor<saldo){
+        if(this.valor<saldo){
             System.out.println("saldo insuficiente");
         }else{
             this.saldo -= valor;
             System.out.println("vc sacou: " + valor+ " reais");
         }
     }
+
+    void transferir(ContaCorrente destino, double valor){
+        if(this.saldo <= valor){
+            System.out.println("saldo insuficiente");
+        }else{
+            this.saldo -=valor;
+            Contacorrente.destino.this.saldo += valor;
+            System.out.println("vc transferiu: " + valor + "para " + ContaCorrente.destino.titular);
+        }
+
+    }
     void exibirSaldo(){
-        System.out.println("seu saldo é: " + saldo);
+        System.out.println("seu saldo é: " + this.saldo);
     }
 }
