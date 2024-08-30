@@ -1,7 +1,7 @@
-package at1;
+package lista2.at1;
 import java.util.Scanner;
 
-public class main {
+public class Main {
     public static void main(String[] args){
         Scanner s = new Scanner(System.in);
         System.out.println("diga o numero da conta, nome do titular, e saldo");

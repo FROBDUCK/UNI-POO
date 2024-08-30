@@ -1,4 +1,4 @@
-package at2;
+package lista2.at2;
 import java.util.Scanner;
 
 public class Main {

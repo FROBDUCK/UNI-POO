@@ -1,4 +1,4 @@
-package at1;
+package lista2.at1;
 public class ContaCorrente{
 
     String numDaConta;

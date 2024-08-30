@@ -1,4 +1,4 @@
-package at2;
+package lista2.at2;
 
 public class SessaoCinema {
     String filme;
