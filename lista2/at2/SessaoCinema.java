@@ -35,7 +35,7 @@ public class SessaoCinema {
     }
     void alterarHorario(String novoHorario){
         this.horario = novoHorario;
-        System.out.println("horario alteerado para: " + horario);
+        System.out.println("horario alterado para: " + horario);
 
     }
     
