@@ -32,8 +32,8 @@ public class ContaCorrente{
             System.out.println("saldo insuficiente");
         }else{
             this.saldo -=valor;
-            ContaCorrente.destino.this.saldo += valor;
-            System.out.println("vc transferiu: " + valor + "para " + ContaCorrente.destino.titular);
+            destino.depositar(valor);
+            System.out.println("vc transferiu: " + valor + "para " + destino.titular);
         }
 
     }
