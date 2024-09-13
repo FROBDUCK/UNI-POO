@@ -1,4 +1,4 @@
-package lista2.at5;
+package at5;
 
 public class ControleDeEstoque{
     String nome;
@@ -18,7 +18,7 @@ public class ControleDeEstoque{
 
     void removerEstoque(int quantidade){
         if(quantidade >=1){
-            this.quantidade =-1;
+            this.quantidade =- quantidade;
         }else{
             System.out.println("não foi possivel remover estoque");
         }
@@ -30,6 +30,6 @@ public class ControleDeEstoque{
     }
 
     void exibirProduto(){
-        System.out.println(nome, quantidade, precoUnitario);
+        System.out.println(nome + " " + quantidade + " " + precoUnitario);
     }
 }

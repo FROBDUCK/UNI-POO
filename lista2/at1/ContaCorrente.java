@@ -1,4 +1,4 @@
-package lista2.at1;
+package at1;
 public class ContaCorrente{
 
     String numDaConta;
@@ -18,7 +18,7 @@ public class ContaCorrente{
     }
 
     void sacar(double valor){
-        if(this.valor<saldo){
+        if(valor<saldo){
             System.out.println("saldo insuficiente");
         }else{
             this.saldo -= valor;
@@ -27,11 +27,12 @@ public class ContaCorrente{
     }
 
     void transferir(ContaCorrente destino, double valor){
+        
         if(this.saldo <= valor){
             System.out.println("saldo insuficiente");
         }else{
             this.saldo -=valor;
-            Contacorrente.destino.this.saldo += valor;
+            ContaCorrente.destino.this.saldo += valor;
             System.out.println("vc transferiu: " + valor + "para " + ContaCorrente.destino.titular);
         }
 

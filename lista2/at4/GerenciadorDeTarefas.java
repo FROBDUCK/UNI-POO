@@ -1,4 +1,4 @@
-package lista2.at3;
+package at4;
 
 public class GerenciadorDeTarefas{
     String desc;
@@ -21,7 +21,7 @@ public class GerenciadorDeTarefas{
     }
 
     void exibirTarefa(){
-        System.out.println(desc, concluida, prioridade);
+        System.out.println(desc + concluida + prioridade);
     }
 
     void resetarTarefa(){
